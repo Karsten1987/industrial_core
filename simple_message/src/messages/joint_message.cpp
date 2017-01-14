@@ -85,6 +85,7 @@ bool JointMessage::init(industrial::simple_message::SimpleMessage & msg)
   {
     LOG_ERROR("Failed to unload joint data");
   }
+
   return rtn;
 }
 

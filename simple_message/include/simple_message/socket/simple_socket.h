@@ -255,7 +255,7 @@ protected:
   {
     LOG_ERROR("%s, rc: %d. Error: '%s' (errno: %d)", msg, rc, strerror(error_no), error_no);
   }
-  
+
   // Send/Receive functions (inherited classes should override raw methods
   // Virtual
   bool sendBytes(industrial::byte_array::ByteArray & buffer);
